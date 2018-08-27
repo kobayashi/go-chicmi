@@ -118,6 +118,7 @@ type Values struct {
 	IsHeadliner            string        `json:"is_headliner"`
 	HeadlinerCopyEn        interface{}   `json:"headliner_copy_en"`
 	HeadlinerCopyZh        interface{}   `json:"headliner_copy_zh"`
+	ShareCount             string        `json:"share_count"`
 	Cca2                   string        `json:"cca2"`
 	SummaryEn              string        `json:"summary_en"`
 	SummaryZh              string        `json:"summary_zh"`

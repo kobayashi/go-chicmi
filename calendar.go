@@ -54,6 +54,7 @@ type Event struct {
 	IsHeadliner            string      `json:"is_headliner"`
 	HeadlinerCopyEn        interface{} `json:"headliner_copy_en"`
 	HeadlinerCopyZh        interface{} `json:"headliner_copy_zh"`
+	ShareCount             string      `json:"share_count"`
 	Days                   string      `json:"days"`
 	SummaryEn              string      `json:"summary_en"`
 	SummaryZh              string      `json:"summary_zh"`

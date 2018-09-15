@@ -51,7 +51,7 @@ type Values struct {
 	AvgRatingCount         interface{}   `json:"avg_rating_count"`
 	IsLowInterest          string        `json:"is_low_interest"`
 	IsFeatured             string        `json:"is_featured"`
-	ProfileData            string        `json:"profile_data"`
+	ProfileData            interface{}   `json:"profile_data"`
 	EventLogo              string        `json:"event_logo"`
 	EventHero              string        `json:"event_hero"`
 	IsImagesContain        string        `json:"is_images_contain"`
@@ -140,7 +140,7 @@ type Values struct {
 	Timezone               string        `json:"timezone"`
 	DatepickerFormat       string        `json:"datepicker_format"`
 	Cities                 []string      `json:"cities"`
-	Links                  Links         `json:"links"`
+	Links                  []Links       `json:"links"`
 	Designers              []interface{} `json:"designers"`
 	OnlineSales            []interface{} `json:"online_sales"`
 	IsSale                 string        `json:"is_sale"`

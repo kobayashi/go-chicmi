@@ -1,4 +1,4 @@
-## go-chicmi
+## go-chicmi [![Build Status](https://travis-ci.org/kobayashi/go-chicmi.svg?branch=master)](https://travis-ci.org/kobayashi/go-chicmi)
 
 go-chicmi is rest client to get data from chicmi API
 
@@ -43,3 +43,11 @@ func main() {
 	fmt.Println(event)
 }
 ```
+
+## License
+
+[MIT](https://github.com/kobayashi/go-chicmi/blob/master/LICENSE)
+
+## Author
+
+[kobayashi](https://github.com/kobayashi)
